@@ -7,3 +7,404 @@
     text-align: center;
     color: #0c0707;
 }
+
+h2 {
+    color:#000;
+    text-align: center;
+    width: 360px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    }
+
+.button1 {
+     background-color: black; 
+    color: white; 
+    border: 10px solid #000000;
+    text-align: center;
+    margin-top: 100px;
+
+
+}
+.title{
+    padding: auto;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+  font-size:large;
+    
+}
+
+
+
+.awards-section {
+    background: #fbf6ef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Adjust as needed */
+    margin-left: auto;
+    height: 300px;
+}
+
+.award img {
+    max-width: 100px; /* Adjust as needed */
+    margin-right: 100px; /* Adjust as needed */
+    margin-left: 100px;
+}
+
+.award p {
+    font-size: 0.8rem; /* Adjust as needed */
+    text-align: center;
+}
+
+.products-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbf6ef;
+}
+
+.product {
+    width: 30%; /* Adjust as needed */
+    text-align: center;
+    background-color: #fbf6ef;
+    margin-bottom: 50px;
+}
+
+.product .image-wrapper1 {
+    margin-bottom: 10px; /* Adjust as needed */
+    width: 340px;
+    height: 260px;
+    margin-left: 20px;
+}
+
+.image-wrapper1 img {
+    width: 340px;
+    height: 260px;
+  }
+
+
+
+.image-wrapper2 img {
+    width: 340px;
+    height: 260px;
+  }
+
+
+
+.image-wrapper3 img {
+    width: 340px;
+    height: 260px;
+  }
+
+.image-wrapper4 img {
+    width: 333px;
+    height: 333px;
+  }
+
+h4{
+    color:#000;
+}
+
+.product-info {
+    font-size: 0.9rem; /* Adjust as needed */
+}
+
+.product-info span {
+    display: block;
+
+}
+
+.product-info strong {
+    font-size: 1.1rem; /* Adjust as needed */
+    color: #000;
+}
+
+.product-info small {
+    font-size: 0.9rem; /* Adjust as needed */
+    text-decoration: line-through;
+    color: #666;
+}
+
+
+/* This is
+a multi-line
+comment */
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white; /* Example background color */
+}
+
+.content {
+    max-width: 50%;
+}
+
+h3 {
+    color: #777; /* Example color */
+    font-size: 1.2em;
+}
+
+h1 {
+    color: #000;
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.benefits {
+    list-style-type: none;
+    line-height: 1.6;
+}
+
+.benefits li:before {
+    content: '✓';
+    color: green; /* Example checkmark color */
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.image img {
+    max-width: 100%; /* Assuming you want the image to be responsive */
+    height: auto;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #fff; /* Adjust based on your site's design */
+}
+
+.text-section {
+    width: 50%; /* Adjust as necessary */
+    padding-right: 20px; /* Spacing between text and image */
+}
+
+.text-section h4 {
+    color: #aaa; /* Example color - adjust as needed */
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.text-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.text-section p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    color: #333; /* Example color - adjust as needed */
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #000; /* Button color - adjust as needed */
+    color: #fff; /* Button text color - adjust as needed */
+    text-decoration: none;
+    display: inline-block;
+}
+
+.image-section {
+    width: 50%; /* Adjust as necessary */
+    display: flex;
+    justify-content: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.commitment-section {
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: white; /* Example background color */
+  
+}
+
+.image-section{
+background-color: #fbf6ef;
+
+}
+
+.left-column, .right-column {
+    width: 50%; /* Split the width evenly */
+}
+
+h2 {
+    color:#000; /* Dark grey color */
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2.5rem; /* Large font size for main heading */
+}
+
+h3{
+    color:black
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333; /* Dark text for readability */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000; /* Button color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #444; /* Darker background on hover */
+}
+
+
+
+
+.mission-statement {
+    background-image: url('img/background.jpeg');
+    background-size: auto;
+
+    /* Stretch image to fill container */
+    background-position: center; /* Center image horizontally */
+    background-repeat: no-repeat;
+
+   /* Adjust the color to match your design */
+   
+
+    
+    text-align: center;
+}
+
+.mission-statement h2 {
+    color: #666;
+    font-size: 1rem;
+}
+
+.mission-statement h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+.mission-statement p {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.image-text-block {
+    /* Set background image */
+   /* Stretch image to fill container */
+    background-position: center; /* Center image horizontally */
+    min-height: 500px; /* Set minimum height for the container */ 
+  }
+  
+  .text-content {
+    background-color: white;
+    padding: 10px;
+    color: black; /* Text color */
+   position: absolute;
+    right: 200px;
+    top:5000px;
+    left: 200px;
+    
+  }
+
+footer{
+    width: 100%;
+    background-color: #fbf6ef;
+}
+.row{
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+.col{
+
+    flex-basis: 25%;
+    padding: 10px;
+    color: #000;
+
+}
+
+ul li a{
+    color: #000;
+}
+
+
+.right-column{
+    margin-left: 50px;
+    color: black;
+
+}
+
+
+.footer{
+    background-color: #fbf6ef;
+}
+
+
+.review{
+
+    
+    background: #fbf6ef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        /* Adjust as needed */
+    margin-left: auto;
+    height: 300px;
+    
+}
+
+
+.review img{
+
+    max-width: 300px; /* Adjust as needed */
+   
+
+}
