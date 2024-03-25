@@ -38,6 +38,10 @@ h2 {
     
 }
 
+.title1 {
+    grid-column: span 3; /* Make title span all three columns */
+    text-align: center;
+  }
 
 
 .awards-section {
@@ -51,9 +55,9 @@ h2 {
 }
 
 .award img {
-    max-width: 100px; /* Adjust as needed */
+    max-width: 150px; /* Adjust as needed */
     margin-right: 100px; /* Adjust as needed */
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .award p {
@@ -62,16 +66,20 @@ h2 {
 }
 
 .products-section {
-    display: flex;
-    justify-content: space-between;
+    
     background-color: #fbf6ef;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust column width as needed */
+    gap: 20px; 
 }
 
 .product {
     width: 30%; /* Adjust as needed */
     text-align: center;
     background-color: #fbf6ef;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    
 }
 
 .product .image-wrapper1 {
@@ -84,6 +92,7 @@ h2 {
 .image-wrapper1 img {
     width: 340px;
     height: 260px;
+    margin-top: 10px;
   }
 
 
@@ -100,10 +109,7 @@ h2 {
     height: 260px;
   }
 
-.image-wrapper4 img {
-    width: 333px;
-    height: 333px;
-  }
+
 
 h4{
     color:#000;
@@ -346,7 +352,7 @@ button:hover {
     color: black; /* Text color */
    position: absolute;
     right: 200px;
-    top:5000px;
+    top:5200px;
     left: 200px;
     
   }
@@ -388,23 +394,33 @@ ul li a{
 }
 
 
-.review{
+.review-section{
 
     
     background: #fbf6ef;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    width: auto;
+    justify-content: space-between;
         /* Adjust as needed */
-    margin-left: auto;
-    height: 300px;
+    
     
 }
 
 
 .review img{
 
-    max-width: 300px; /* Adjust as needed */
    
+    max-width: 270px; /* Adjust as needed */
+    margin-right: 100px; /* Adjust as needed */
+    margin-left: 150px;
+
+
+}
+
+.icons .fab{
+    width: 40px;
+    height: 400px;
+
 
 }
